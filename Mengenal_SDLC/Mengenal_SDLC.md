@@ -1,20 +1,21 @@
 # MENGENAL SDLC
 
 Table of Content
-- [MENGENAL SDLC](#mengenal-sdlc)
-  - [Pengertian SDLC](#pengertian-sdlc)
-  - [Macam-Macam SDLC](#macam-macam-sdlc)
-    - [Waterfall](#waterfall)
-    - [V-Model](#v-model)
-    - [Iterative](#iterative)
-    - [Fontain](#fontain)
-    - [Spiral Model](#spiral-model)
-    - [Agile Development](#agile-development)
-    - [Rapid Application Development Model](#rapid-application-development-model)
-    - [Extrem Programming](#extrem-programming)
-  - [Perbedaan](#perbedaan)
-  - [Kelebihan \& Kekurangan](#kelebihan--kekurangan)
-  - [Kesimpulan](#kesimpulan)
+- [Pengertian SDLC](#pengertian-sdlc)
+- [Fungsi SDLC](#fungsi-sdlc)
+- [Tahapan SDLC](#tahapann-sdlc)
+- [Macam-Macam SDLC](#macam-macam-sdlc)
+  - [Waterfall](#waterfall)
+  - [V-Model](#v-model)
+  - [Iterative](#iterative)
+  - [Fontain](#fontain)
+  - [Spiral Model](#spiral-model)
+  - [Agile Development](#agile-development)
+  - [Rapid Application Development Model](#rapid-application-development-model)
+  - [Extrem Programming](#extrem-programming)
+- [Perbedaan](#perbedaan)
+- [Kelebihan \& Kekurangan](#kelebihan--kekurangan)
+- [Kesimpulan](#kesimpulan)
 
 <a name="pengertian-sdlc"></a>
 ## Pengertian SDLC
