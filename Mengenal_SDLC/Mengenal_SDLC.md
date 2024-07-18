@@ -57,7 +57,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode waterfall.
 
 <a name="v-model"></a>
 ### V-Model
-![text if the image fails to load](https://media.geeksforgeeks.org/wp-content/uploads/20231030123258/software-Testing-Tutorial-SDLC-V-model.webp "Text displayed on hover")
+![text if the image fails to load](https://media.geeksforgeeks.org/wp-content/uploads/20231030123258/software-Testing-Tutorial-SDLC-V-model.webp "Text displayed on hover") <br>
 The V-Model adalah model SDLC dimana pelaksanaan proses yang terjadi secara berurutan dalam bentuk-V. Dikenal juga sebagai model Verifikasi dan Validasi. The V-Model merupakan perluasan dari waterfall model  dan didasarkan pada asosiasi dari fase pengujian untuk setiap tahap pengembangan yang sesuai. Ini berarti bahwa untuk setiap fase tunggal dalam siklus pengembangan, ada tahap pengujian terkait langsung.
 Berikut adalah tahap-tahap pengembangan dalam metode v-model.
 1. Tahap Desain:
@@ -75,7 +75,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode v-model.
 
 <a name="iterative"></a>
 ### Iterative
-![text if the image fails to load](https://www.tutorialspoint.com/sdlc/images/sdlc_iterative_model.jpg "Text displayed on hover")
+![text if the image fails to load](https://www.tutorialspoint.com/sdlc/images/sdlc_iterative_model.jpg "Text displayed on hover") <br>
 Iterative Model adalah pendekatan dalam pengembangan perangkat lunak yang mengembangkan sistem melalui serangkaian iterasi (pengulangan) yang berulang. Setiap iterasi melibatkan siklus pengembangan perangkat lunak yang lengkap, termasuk perencanaan, analisis kebutuhan, desain, pengkodean, pengujian, dan evaluasi.
 Berikut adalah tahap-tahap pengembangan dalam metode iterative:
 1. Requirements : Mengumpulkan dan menganalisis semua kebutuhan sistem.
@@ -86,12 +86,12 @@ Berikut adalah tahap-tahap pengembangan dalam metode iterative:
 
 <a name="fontain"></a>
 ### Fontain
-![text if the image fails to load](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2021/07/bagan-2-612x1536.jpg "Text displayed on hover")
+![text if the image fails to load](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2021/07/bagan-2-612x1536.jpg "Text displayed on hover") <br>
 Metode fountain adalah perbaikan dari metode waterfall, di mana jenis tahapan masih sama. Namun beberapa jenis tahapan boleh didahulukan atau dilewati, tetapi ada tahapan yang tidak bisa dilewati, contohnya seperti design sebelum melakukan implementasi, jika hal tersebut dilewati maka akan ada tumpang tindih.
 
 <a name="spiral-model"></a>
 ### Spiral Model
-![text if the image fails to load](https://sis.binus.ac.id/wp-content/uploads/2019/04/art1.gif "Text displayed on hover")
+![text if the image fails to load](https://sis.binus.ac.id/wp-content/uploads/2019/04/art1.gif "Text displayed on hover") <br>
 metode siklus pengembangan sistem ( SDLC ) yang digunakan untuk manajemen risiko yang menggabungkan model proses pengembangan iteratif dengan elemen model Waterfall . 
 Berikut adalah tahap-tahap pengembangan dalam metode Spiral Model:
 1. Tahap liason: Berhubungan dengan komunikasi antar pihak yangn terlibat dalam pengembangan software dengan tujuan untuk mengembangkan software yang sesuai dengan kebutuhan dan keinginan pelanggan.
@@ -104,7 +104,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode Spiral Model:
 
 <a name="agile-development"></a>
 ### Agile Development
-![text if the image fails to load](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2021/07/1592-1536x1152.jpg "Text displayed on hover")
+![text if the image fails to load](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2021/07/1592-1536x1152.jpg "Text displayed on hover") <br>
 Metode agile adalah metode yang fleksibel di mana pengembangan dilakukan dalam jangka pendek. Namun diperlukan adaptasi yang cepat dari developer terhadap perubahan dalam bentuk apa pun.
 Berikut adalah tahap-tahap pengembangan dalam metode agile:
 1. Planning : Tahap ini dimulai dengan sprint planning, di mana tim mengidentifikasi dan memilih item dari backlog (daftar pekerjaan yang harus dilakukan) untuk dikerjakan selama sprint (periode waktu tertentu, biasanya 1-4 minggu). Tujuan utamanya adalah membuat rencana untuk sprint yang akan datang.
@@ -117,7 +117,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode agile:
 
 <a name="rapid-application-development-model"></a>
 ### Rapid Application Development Model
-![text if the image fails to load](https://cms.agus-hermanto.com/uploads/agus-hermanto/originals/6cad856a-7d75-462c-98a7-123f7a8f4341.png "Text displayed on hover")
+![text if the image fails to load](https://cms.agus-hermanto.com/uploads/agus-hermanto/originals/6cad856a-7d75-462c-98a7-123f7a8f4341.png "Text displayed on hover") <br>
 Metode pengembangan perangkat lunak RAD (Rapid Application Development) adalah sebuah proses pengembangan perangkat lunak yang menekankan siklus pengembangan dengan waktu yang singkat. Definisi lain menyatakan bahwa metode pengembangan perangkat lunak RAD adalah metode yang menggunakan pendekatan beorientasi objek untuk pengembangan sistem yang meliputi pengembangan perangkat dan perangkat lunak.
 Berikut adalah tahap-tahap pengembangan dalam metode Rapid Application Development Model :
 1. Perencanaan kebutuhan: Melakukan identifikasi masalah dan pengumpulan data dari pengguna atau stakeholder dengan tujuan untuk mengidentifikasi maksud akhir atau tujuan dari sistem yang diinginkan.
@@ -132,7 +132,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode Rapid Application Developme
 | :- | :---------- | :---------- | :---------- |
 | 1 | Waterfall | 1. Memiliki proses yang terurut, sehingga pengerjaan dapat terjadwal dengan baik dan mudah. <br> 2. Cocok untuk sistem dengan kompleksitas rendah (predictable). <br> 3. Setiap proses yang dilakukan tidak dapat saling tumpah tindih. | Tahapan yang berurutan secara linier tidak memungkinkan untuk kembali pada tahapan selanjutnya |
 | 2 |V-Model      | 1. Digunakan untuk proyek kecil dengan persyaratan yang jelas. <br> 2. Berfokus pada aktifitas verifikasi dan validasi. <br> 3. Ini adalah model yang sangat-disiplin dan Tahapan selesai satu per satu. | 1. Tidak cocok untuk proyek dengan persyaratan tiggi. <br> 2. Tidak mendukung iterasi. <br> 3. Memakan waktu karena memerlukan banyak dokumentasi dan pengujian.       |
-| 3 | Iterative Model      | 1. Manajemen resiko lebih baik. <br> 2. Penyempurnaan berkelanjutan. <br> 3. Adaptasi terhadap perubahan.       | 1. Kebutuhan manajemen yang kompleks. <br> 2. Ketergantungan pada umpan balik. <3> Dokumentasi berulang.     |
+| 3 | Iterative Model      | 1. Manajemen resiko lebih baik. <br> 2. Penyempurnaan berkelanjutan. <br> 3. Adaptasi terhadap perubahan.       | 1. Kebutuhan manajemen yang kompleks. <br> 2. Ketergantungan pada umpan balik. <br> 3. Dokumentasi berulang.     |
 | 4 | Fontain     | 1. Memiliki proses yang terurut, sehingga pengerjaan dapat terjadwal dengan baik dan mudah. <br> 2. Dapat melewati atau mendahulukan beberapa tahapan. <br> 3. Setiap proses yang dilakukan tidak dapat saling tumpah tindih.        | 1. Waktu pengerjaan relatif lebih lama, karena harus menunggu tahap sebelumnya selesai. <br> 2. Model fountain ini kurang cocok untuk pengembangan proyek yang memiliki kompleksitas tinggi.        |
 | 5 | Spiral Model      | 1. Pembangunan dan perubahan perangkat lunak yang terjadi dapat diselesaikan secara sistematis. <br> 2. Manajemen dan analisa risiko yang lebih cepat dan mudah. <br> 3. Mudah dalam melakukan perubahan kebutuhan dan dokumentasi.        |1. Tidak cocok dan sulit diimplementasikan dalam projek kecil. <br> 2. Membutuhkan best practice atau pengalaman sebelumnya karena proses yang sangat kompleks. <br> 3. Resiko dalam tahap planning cukup besar. Misalnya terjadi perbedaan dalam jadwal pengembangan dan anggaran belanja.       |
 | 6 | Agile Development      | 1. Adaptif terhadap perubahan. <br> 2. Kolaborasi tim yang kuat. <br> 3. Kepuasan pelanggan. <br> 4. Penyempurnaan berkelanjuatan.       | 1. Membutuhkan komitmen yang tinggi. <br> 2. Dokumentasi kurang. <br> 3. Memerlukan keterlibatan konstan dari pemangku kepentingan.      |
@@ -141,3 +141,4 @@ Berikut adalah tahap-tahap pengembangan dalam metode Rapid Application Developme
 
 <a name="kesimpulan"></a>
 ## Kesimpulan
+Untuk perusahaan software house, Agile Development adalah pilihan terbaik karena dapat dengan cepat menyesuaikan diri dengan perubahan dalam kebutuhan pasar dan pelanggan. Pendekatan ini memungkinkan tim untuk melakukan iterasi yang terencana dengan baik, yang memastikan bahwa produk yang dikembangkan tetap berkualitas tinggi. Dengan Agile, perusahaan dapat merespons umpan balik dari pelanggan dengan lebih efisien, sehingga memungkinkan produk diluncurkan lebih cepat ke pasar dengan fitur-fitur yang sesuai dengan harapan pengguna.
