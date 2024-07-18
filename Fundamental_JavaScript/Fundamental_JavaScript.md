@@ -55,45 +55,69 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 ### Operator Perbandingan
 | Operator | Description | 
 | :------: | :--------: |
-| ==   | Node.js      | 
-| ===    | Express      |
-| !=    | Nest.js      | 
-| !==    | Nest.js      | 
-| >   | Nest.js      | 
-| <    | Nest.js      | 
-| >=   | Nest.js      | 
-| <=   | Nest.js      | 
-| ?   | Nest.js      | 
+| ==   | sama dengan      | 
+| ===    | sama nilainya dan sama tipe datanya     |
+| !=    | tidak sama     | 
+| !==    | tidak sama nilainya atau tidak sama tipe datanya     | 
+| >   | lebih besar dari   | 
+| <    | lebih kecil dari    | 
+| >=   | lebih besar dari atau sama dengan     | 
+| <=   | lebih kecil dari atau sama dengan      | 
+| ?   | operator ternary   | 
 
 ### Operator Logika
 | Operator | Description | 
 | :------: | :--------: |
-| &&   | Node.js      | 
-| ||    | Express      |
-| !     | Nest.js      |
+| &&   | logika dan     | 
+| ||    | logika atau     |
+| !     | logika tidak     |
 
 ### Operator Penugasan
-| Operator | Description | 
+Berikut adalah tabel yang telah diperbaiki dengan penjelasan yang benar mengenai operator penugasan pada JavaScript:
+
+### Operator Penugasan
+| Operator | Deskripsi | 
 | :------: | :--------: |
-| =   | Node.js         | 
-| +=    | Express       |
-| -=     | Nest.js      | 
-| *=     | Nest.js      | 
-| /=     | Nest.js      | 
-| %=     | Nest.js      | 
+| =        | Menetapkan nilai dari operand kanan ke operand kiri | 
+| +=       | Menambahkan operand kanan ke operand kiri dan menetapkan hasilnya ke operand kiri |
+| -=       | Mengurangi operand kanan dari operand kiri dan menetapkan hasilnya ke operand kiri | 
+| *=       | Mengalikan operand kiri dengan operand kanan dan menetapkan hasilnya ke operand kiri | 
+| /=       | Membagi operand kiri dengan operand kanan dan menetapkan hasilnya ke operand kiri | 
+| %=       | Mengambil sisa pembagian operand kiri dengan operand kanan dan menetapkan hasilnya ke operand kiri | 
+| **=      | Mengangkat operand kiri ke pangkat dari operand kanan dan menetapkan hasilnya ke operand kiri | 
 
 ### Operator Bitwise
 | Operator | Description | 
 | :------: | :--------: |
-| React.js   | Node.js      | 
-| Next.js    | Express      |
-| Vue.js     | Nest.js      | 
+| &   | AND     | 
+| |    | OR      |
+| ~    | NOT     | 
+| ^    | XOR     | 
+| <<    | left shift      | 
+| >>    | right shift    | 
+| >>>    | unsigned right shift     | 
 
 <a name="perulangan"></a>
 ## Perulangan pada JavaScript
+| Perulangan | Description | 
+| :------: | :--------: |
+| for   | Perulangan dengan inisialisasi, kondisi, dan ekspresi akhir.    | 
+| while   | Perulangan yang dijalankan selama kondisi bernilai true.      |
+| do...while   | Perulangan yang dijalankan setidaknya sekali, kemudian selama kondisi bernilai true.    | 
+| for...in   | Perulangan melalui properti objek.     | 
+| for...of    | Perulangan melalui nilai dari objek iterable (misalnya array).      | 
 
 <a name="pengondisian"></a>
 ## Pengkondisian pada JavaScript
+| Operator | Description | 
+| :------: | :--------: |
+| &   | AND     | 
+| |    | OR      |
+| ~    | NOT     | 
+| ^    | XOR     | 
+| <<    | left shift      | 
+| >>    | right shift    | 
+| >>>    | unsigned right shift     | 
 
 <a name="fungsi"></a>
 ## Fungsi pada JavaScript
