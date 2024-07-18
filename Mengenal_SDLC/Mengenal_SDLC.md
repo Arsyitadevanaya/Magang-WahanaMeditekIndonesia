@@ -12,8 +12,6 @@ Table of Content
   - [Spiral Model](#spiral-model)
   - [Agile Development](#agile-development)
   - [Rapid Application Development Model](#rapid-application-development-model)
-  - [Prototype](#extrem-programming)
-  - [BigBang](#extrem-programming)
 - [Kelebihan & Kekurangan](#kelebihan--kekurangan)
 - [Kesimpulan](#kesimpulan)
 
@@ -31,16 +29,16 @@ Mengembangkan perangkat lunak tanpa perencanaan yang matang sangatlah sulit. Ban
 <a name="tahapan-sdlc"></a>
 ## Tahapan SDLC
 Setiap proyek pengembangan perangkat lunak melibatkan serangkaian tahap tertentu. Berikut adalah tahapan umum dalam SDLC:
-1. Perencanaan Sistem (Systems Planning):
-   Tahap ini menekankan pada studi kelayakan pengembangan sistem. Aktivitas-aktivitas melibatkan pembentukan tim pengembang, menetapkan tujuan dan ruang lingkup pengembangan, dan menentukan strategi pengembangan.
-2. Analisis Sistem (Systems Analysis):
-   Pada tahap ini, sistem dianalisis untuk memahami bagaimana nantinya akan berjalan. Studi literatur, brainstorming tim pengembang, dan analisis kebutuhan sistem dilakukan di sini.
-3. Perancangan Sistem (Systems Design):
-   Tahap ini menghasilkan desain sistem, termasuk prototipe dan dokumen yang merinci komponen yang diperlukan. Ini merupakan kelanjutan dari hasil analisis sebelumnya.
-4. Implementasi Sistem (Systems Implementation):
+1. Perencanaan (Planning):
+   Tahap ini fokus pada studi kelayakan pengembangan sistem. Aktivitas meliputi pembentukan tim, menetapkan tujuan dan ruang lingkup proyek, serta merumuskan strategi pengembangan.
+2. Analisis Sistem (Analysis):
+   Pada tahap ini, sistem yang akan dikembangkan dianalisis secara mendalam. Ini termasuk studi literatur, brainstorming untuk memahami kebutuhan sistem, dan analisis detail untuk memastikan semua kebutuhan pengguna terdokumentasi dengan baik.
+3. Perancangan (Design):
+   Tahap ini menghasilkan desain sistem yang spesifik dan terinci. Ini meliputi pembuatan prototipe, merancang komponen-komponen sistem, serta menghasilkan dokumen teknis yang mendetail.
+4. Implementasi (Implementation):
    Tahap implementasi melibatkan pembuatan database, aplikasi, dan pengujian. Aktivitas-aktivitas ini bertujuan untuk mengimplementasikan rancangan sistem yang telah dibuat sebelumnya.
-5. Pemeliharaan Sistem (Systems Maintenance):
-   Pemeliharaan sistem dilakukan untuk memastikan bahwa sistem tetap beroperasi secara benar dan dapat beradaptasi dengan perubahan kebutuhan.
+5. Pemeliharaan(Maintenance):
+   Setelah sistem diluncurkan, tahap pemeliharaan dimulai. Ini mencakup pembaruan rutin, penanganan bug, dan penyesuaian sistem dengan perubahan kebutuhan atau lingkungan operasional yang baru.
    
 <a name="macam-macam-sdlc"></a>
 ## Macam-Macam SDLC
