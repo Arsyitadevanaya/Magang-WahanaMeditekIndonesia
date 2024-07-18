@@ -69,11 +69,8 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | Operator | Description | 
 | :------: | :--------: |
 | &&   | logika dan     | 
-| ||    | logika atau     |
+| II    | logika atau     |
 | !     | logika tidak     |
-
-### Operator Penugasan
-Berikut adalah tabel yang telah diperbaiki dengan penjelasan yang benar mengenai operator penugasan pada JavaScript:
 
 ### Operator Penugasan
 | Operator | Deskripsi | 
@@ -90,7 +87,7 @@ Berikut adalah tabel yang telah diperbaiki dengan penjelasan yang benar mengenai
 | Operator | Description | 
 | :------: | :--------: |
 | &   | AND     | 
-| |    | OR      |
+| I    | OR      |
 | ~    | NOT     | 
 | ^    | XOR     | 
 | <<    | left shift      | 
@@ -111,16 +108,24 @@ Berikut adalah tabel yang telah diperbaiki dengan penjelasan yang benar mengenai
 ## Pengkondisian pada JavaScript
 | Operator | Description | 
 | :------: | :--------: |
-| &   | AND     | 
-| |    | OR      |
-| ~    | NOT     | 
-| ^    | XOR     | 
-| <<    | left shift      | 
-| >>    | right shift    | 
-| >>>    | unsigned right shift     | 
+| if   | Mengeksekusi blok kode jika kondisi bernilai true.     | 
+| if...else    | Menentukan blok kode yang dijalankan berdasarkan kondisi true atau false.      |
+| switch    | Memilih salah satu dari beberapa blok kode untuk dijalankan berdasarkan nilai ekspresi.     | 
 
 <a name="fungsi"></a>
 ## Fungsi pada JavaScript
 
 <a name="typecasting"></a>
 ## Type Casting pada JavaScript
+Type casting adalah proses mengubah tipe data dari satu jenis ke jenis lain. JavaScript memiliki dua jenis konversi tipe: implisit dan eksplisit.
+### Konversi Implisit
+JavaScript secara otomatis mengubah tipe data sesuai kebutuhan.
+### Konversi Eksplisit
+Pengembang secara eksplisit mengubah tipe data menggunakan fungsi atau metode.
+| Eksplisit | Description | 
+| :------: | :--------: |
+| Number()   | Mengubah nilai ke tipe data number.     | 
+| String()    | Mengubah nilai ke tipe data string.      |
+| Boolean()    | Mengubah nilai ke tipe data boolean.     | 
+| parseInt() dan parseFloat()    | Mengubah string ke number (integer atau floating-point).     | 
+
