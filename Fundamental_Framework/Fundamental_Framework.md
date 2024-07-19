@@ -1,4 +1,4 @@
-# Fundamental Framework
+# Fundamental Framework Vue.Js 3
 
 Table of Content
 - [Pendahuluan Vue.js](#pendahuluan)
@@ -18,7 +18,12 @@ Table of Content
   - [Slot Component](#slot)
   - [Provide Inject Component](#inject)
 - [Router](#router)
-
+  - [Instalasi](#instalasi)
+  - [Konfigurasi](#konfigurasi)
+  - [Integrasi Router dengan Aplikasi Vue](#integrasi)
+  - [Penggunaan Router Link dan Router View](#link-view)
+  - [Menambahkan Rute Dinamis dan Parameter](#dinamis-route)
+  - [Navigasi Programatik](#navigasi-pragmatik)
 
 <a name="pendahuluan"></a>
 ## Pendahuluan Vue.js
@@ -424,6 +429,125 @@ export default {
 }
 </script>
 ```
+
+<a name="router"></a>
+## Router
+
+<a name="instalasi"></a>
+### Instalasi
+Menggunakan npm:
+```
+npm install vue-router@next
+```
+
+Menggunakan yarn:
+```
+yarn add vue-router@next
+```
+
+<a name="konfigurasi"></a>
+### Konfigurasi
+```
+// src/router/index.js
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '../components/Home.vue'
+import About from '../components/About.vue'
+
+// Definisikan rute-rute aplikasi
+const routes = [
+  { path: '/', component: Home },
+  { path: '/about', component: About }
+]
+
+// Buat instance router
+const router = createRouter({
+  history: createWebHistory(), // Menggunakan HTML5 History API
+  routes
+})
+
+export default router
+```
+
+<a name="integrasi"></a>
+### Integrasi Router dengan Aplikasi Vue
+```
+// src/main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+
+const app = createApp(App)
+
+app.use(router) // Daftarkan router
+app.mount('#app')
+```
+
+<a name="link-view"></a>
+### Penggunaan Router Link dan Router View
+1. <router-link>: Komponen ini digunakan untuk membuat tautan navigasi yang terhubung dengan rute yang telah didefinisikan.
+   ```
+   <!-- Dalam komponen Vue -->
+   <template>
+     <nav>
+       <router-link to="/">Home</router-link>
+       <router-link to="/about">About</router-link>
+     </nav>
+     <router-view></router-view> <!-- Tempat di mana komponen terkait rute akan dirender -->
+   </template>
+   ```
+3. <router-view>: Komponen ini digunakan untuk menampilkan komponen yang terkait dengan rute saat ini. Biasanya diletakkan di dalam template utama.
+   
+<a name="dinamis-route"></a>
+### Menambahkan Rute Dinamis dan Parameter
+```
+// src/router/index.js
+const routes = [
+  { path: '/', component: Home },
+  { path: '/about', component: About },
+  { path: '/user/:id', component: UserDetail } // Rute dinamis
+]
+```
+Untuk mengambil parameter dalam komponen, Anda bisa menggunakan useRoute:
+```
+// src/components/UserDetail.vue
+<template>
+  <div>User ID: {{ userId }}</div>
+</template>
+
+<script>
+import { useRoute } from 'vue-router'
+
+export default {
+  setup() {
+    const route = useRoute()
+    const userId = route.params.id
+
+    return { userId }
+  }
+}
+</script>
+```
+
+<a name="navigasi-progmatik"></a>
+### Navigasi Programatik
+```
+// Di dalam komponen Vue
+import { useRouter } from 'vue-router'
+
+export default {
+  setup() {
+    const router = useRouter()
+
+    function goToAbout() {
+      router.push('/about')
+    }
+
+    return { goToAbout }
+  }
+}
+```
+
+
 
 
 
