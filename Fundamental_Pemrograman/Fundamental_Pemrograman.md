@@ -24,7 +24,10 @@ Praktisi yang ahli dalam menulis kode program disebut sebagai programmer atau pe
 
 Bahasa pemrograman dapat dibagi menjadi dua paradigma utama: imperatif dan deklaratif. 
 
-1. **Imperatif**: Program dalam paradigma ini mengandalkan urutan perintah yang menjelaskan langkah-langkah untuk mencapai hasil akhir. Ini termasuk pendeklarasian variabel, ekspresi aritmatika, dan perintah-perintah seperti pemberian nilai ke variabel. Contoh sederhana adalah `x := 2 + 2; if x = 4 then lakukan_sesuatu();`. Kritik terhadap pendekatan ini adalah adanya efek samping yang bisa mempengaruhi variabel di luar ruang lingkup fungsi yang sedang berjalan.
+1. **Imperatif**: Program dalam paradigma ini mengandalkan urutan perintah yang menjelaskan langkah-langkah untuk mencapai hasil akhir. Fokus utamanya adalah bagaimana mencapai tujuan. Paradigma terdiri dari beberapa pernyataan dan setelah eksekusi semua hasilnya disimpan. Pemrograman imperatif dibagi menjadi tiga kategori besar: Pemrosesan prosedural, OOP, dan paralel. Paradigma tersebut adalah sebagai berikut:
+   - **Prosedural**: Paradigma ini menekankan pada prosedur dalam kaitannya dengan model mesin yang mendasarinya.Contoh bahasa C, C++, dan Java.
+   - **OOP**: Pemrograman berorientasi objek – Program ini ditulis sebagai kumpulan kelas dan objek yang dimaksudkan untuk komunikasi. Entitas terkecil dan dasar adalah objek dan semua jenis perhitungan dilakukan pada objek saja. Contoh C++, Java, Python, Ruby, dll.
+   - **Paralel**: Pendekatan pemrosesan paralel – Pemrosesan paralel adalah pemrosesan instruksi program dengan membaginya di antara beberapa prosesor. Contoh NESL dan C/C++.
 
 2. **Deklaratif**: Di sisi lain, program dalam paradigma deklaratif mendeskripsikan properti yang harus dipenuhi untuk mencapai hasil tertentu, mirip dengan deklarasi matematis atas hubungan objek. Paradigma ini mencakup dua jenis utama:
    - **Fungsional**: Menghindari efek samping dengan fokus pada fungsi matematis murni, seperti yang terlihat dalam bahasa Haskell.
