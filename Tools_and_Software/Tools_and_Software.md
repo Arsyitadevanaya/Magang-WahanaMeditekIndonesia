@@ -195,7 +195,7 @@ Google Spreadsheet adalah lembar kerja yang serupa dengan Microsoft Excel yang d
 
 <a name="doc"></a>
 ## Google Doc
-Google Spreadsheet adalah lembar kerja yang serupa dengan Microsoft Word yang dikembangkan oleh Google. Tetapi penggunaannya lebih difokuskan secara online, sehingga sangat mudah untuk sharing dengan para pengguna lain.
+Google Doc adalah lembar kerja yang serupa dengan Microsoft Word yang dikembangkan oleh Google. Tetapi penggunaannya lebih difokuskan secara online, sehingga sangat mudah untuk sharing dengan para pengguna lain.
 ### Kelebihan
 - Memungkinkan banyak pengguna untuk mengedit dokumen secara bersamaan.
 - Dapat diakses dari mana saja dengan koneksi internet.
