@@ -11,6 +11,8 @@ Table of Content
 - [List Rendering](#list-rendering)
 - [Computed Proprties](#computed-properties)
 - [Class dan Style Binding](#fungsi)
+- [Lifecycle Hooks](#lifecycle)
+- [Watchers](#watchers)
 - [Component](#component)
   - [Registrasi Component](#registrasi)
   - [Props Component](#props)
@@ -195,6 +197,107 @@ Class binding digunakan untuk mengikat kelas CSS ke elemen.
 Style binding digunakan untuk mengikat gaya CSS inline ke elemen. 
 1. Menggunakan Objek: ``:style="{ color: activeColor, fontSize: fontSize + 'px' }"``
 2. Menggunakan Array: ``:style="[baseStyles, additionalStyles]"``
+
+<a name="lifecycle"></a>
+## Lifecycle Hooks
+Lifecycle hooks adalah metode yang dipanggil selama berbagai tahap siklus hidup komponen. Ini memungkinkan pengembang untuk mengeksekusi kode pada saat yang tepat dalam siklus hidup komponen.
+1. onBeforeMount
+   Dipanggil sebelum komponen dipasang (mounted) ke DOM.
+   ```
+   import { onBeforeMount } from 'vue';
+   onBeforeMount(() => {
+       console.log('Component is about to mount');
+   });
+   ```
+2. onMounted
+   Dipanggil setelah komponen dipasang (mounted) ke DOM.
+   ```
+   import { onMounted } from 'vue';
+   onMounted(() => {
+       console.log('Component has been mounted');
+   });
+   ```
+3. onBeforeUpdate
+   Dipanggil sebelum komponen di-update.
+   ```
+   import { onBeforeUpdate } from 'vue';
+   onBeforeUpdate(() => {
+       console.log('Component is about to update');
+   });
+   ```
+4. onUpdated
+   Dipanggil setelah komponen di-update.
+   ```
+   import { onUpdated } from 'vue';
+   onUpdated(() => {
+       console.log('Component has been updated');
+   });
+   ```
+5. onBeforeUnmount
+   Dipanggil sebelum komponen dihapus dari DOM.
+   ```
+   import { onBeforeUnmount } from 'vue';
+   onBeforeUnmount(() => {
+       console.log('Component is about to be unmounted');
+   });
+   ```
+6. onUnmounted
+   Dipanggil setelah komponen dihapus dari DOM.
+   ```
+   import { onUnmounted } from 'vue';
+   onUnmounted(() => {
+       console.log('Component has been unmounted');
+   });
+   ```
+
+
+<a name="watchers"></a>
+## Watchers
+Cara untuk merespon perubahan pada data reaktif atau properti terkomputasi di vue.js. Ada 2 jenis watchers: immediate watchers dan deep watchers.
+### Basic watchers
+Watchers dasar digunakan untuk merespon perubahan pada properti tertentu.
+```
+const { ref, watch } = Vue;
+
+const count = ref(0);
+
+watch(count, (newValue, oldValue) => {
+  console.log(`Count changed from ${oldValue} to ${newValue}`);
+});
+
+count.value = 1; // Triggers the watcher
+```
+
+### Immediate Watchrs
+Watchers yang akan langsung dipanggil saat watch pertama kali di-setup, meskipun tidak ada perubahan pada data.
+```
+const { ref, watch } = Vue;
+
+const count = ref(0);
+
+watch(count, (newValue, oldValue) => {
+  console.log(`Count is ${newValue}`);
+}, { immediate: true });
+```
+
+### Deep Watchers
+Watchers yang dapat memantau perubahan pada objek nested.
+```
+const { ref, watch } = Vue;
+
+const user = ref({
+  name: 'John',
+  details: {
+    age: 30
+  }
+});
+
+watch(user, (newValue, oldValue) => {
+  console.log('User changed:', newValue);
+}, { deep: true });
+
+user.value.details.age = 31; // Triggers the watcher
+```
 
 <a name="component"></a>
 ## Component
