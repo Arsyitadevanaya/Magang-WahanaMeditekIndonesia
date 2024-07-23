@@ -105,7 +105,7 @@ Berikut adalah tahap-tahap pengembangan dalam metode Spiral Model:
 <a name="agile-development"></a>
 ### Agile Development
 ![text if the image fails to load](https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2021/07/1592-1536x1152.jpg "Text displayed on hover") <br>
-Metode agile adalah metode yang fleksibel di mana pengembangan dilakukan dalam jangka pendek. Namun diperlukan adaptasi yang cepat dari developer terhadap perubahan dalam bentuk apa pun.
+Metode agile adalah metode yang fleksibel di mana pengembangan dilakukan dalam jangka pendek. Namun diperlukan adaptasi yang cepat dari developer terhadap perubahan dalam bentuk apa pun. Agile adalah pendekatan yang berfokus pada fleksibilitas, kolaborasi, dan pengiriman perangkat lunak yang dapat digunakan dalam iterasi singkat, biasanya dalam rentang waktu 1-4 minggu (sprint).
 Berikut adalah tahap-tahap pengembangan dalam metode agile:
 1. Planning : Tahap ini dimulai dengan sprint planning, di mana tim mengidentifikasi dan memilih item dari backlog (daftar pekerjaan yang harus dilakukan) untuk dikerjakan selama sprint (periode waktu tertentu, biasanya 1-4 minggu). Tujuan utamanya adalah membuat rencana untuk sprint yang akan datang.
 3. Desain: Tahap desain melibatkan pengembangan detail teknis dari fitur atau fungsi yang akan dibangun. Ini mencakup perencanaan arsitektur sistem, antarmuka pengguna, dan rancangan teknis lainnya yang diperlukan sebelum tim mulai menulis kode.
