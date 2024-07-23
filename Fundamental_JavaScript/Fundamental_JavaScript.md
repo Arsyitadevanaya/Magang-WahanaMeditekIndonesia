@@ -74,6 +74,37 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | ++    | Increment      |
 | --    | Decrement      | 
 
+contoh program:
+```
+// Mendeklarasikan variabel
+let a = 10;
+let b = 5;
+
+// Penjumlahan
+let sum = a + b;
+console.log("Penjumlahan:", sum); // Output: Penjumlahan: 15
+
+// Pengurangan
+let difference = a - b;
+console.log("Pengurangan:", difference); // Output: Pengurangan: 5
+
+// Perkalian
+let product = a * b;
+console.log("Perkalian:", product); // Output: Perkalian: 50
+
+// Pembagian
+let quotient = a / b;
+console.log("Pembagian:", quotient); // Output: Pembagian: 2
+
+// Modulus (Sisa bagi)
+let remainder = a % b;
+console.log("Modulus:", remainder); // Output: Modulus: 0
+
+// Eksponensial (a pangkat b)
+let exponentiation = a ** b;
+console.log("Eksponensial:", exponentiation); // Output: Eksponensial: 100000
+```
+
 ### Operator Perbandingan
 | Operator | Description | 
 | :------: | :--------: |
@@ -86,6 +117,34 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | >=   | lebih besar dari atau sama dengan     | 
 | <=   | lebih kecil dari atau sama dengan      | 
 | ?   | operator ternary   | 
+
+contoh program:
+```
+// Mendeklarasikan variabel
+let a = 10;
+let b = 5;
+let c = 10;
+
+// Operator perbandingan
+console.log("a == b:", a == b); // Output: a == b: false
+console.log("a == c:", a == c); // Output: a == c: true
+
+console.log("a != b:", a != b); // Output: a != b: true
+console.log("a != c:", a != c); // Output: a != c: false
+
+console.log("a > b:", a > b);   // Output: a > b: true
+console.log("a < b:", a < b);   // Output: a < b: false
+
+console.log("a >= c:", a >= c); // Output: a >= c: true
+console.log("a <= b:", a <= b); // Output: a <= b: false
+
+// Perbandingan tipe data
+console.log("a === c:", a === c); // Output: a === c: true
+console.log("a === '10':", a === '10'); // Output: a === '10': false
+
+console.log("a !== c:", a !== c); // Output: a !== c: false
+console.log("a !== '10':", a !== '10'); // Output: a !== '10': true
+```
 
 ### Operator Logika
 | Operator | Description | 
@@ -105,6 +164,41 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | %=       | Mengambil sisa pembagian operand kiri dengan operand kanan dan menetapkan hasilnya ke operand kiri | 
 | **=      | Mengangkat operand kiri ke pangkat dari operand kanan dan menetapkan hasilnya ke operand kiri | 
 
+Contoh program:
+```
+// Mendeklarasikan variabel
+let x = 10;
+let y = 5;
+
+// Operator penugasan dasar
+x = y; // Mengatur x sama dengan y
+console.log("x setelah penugasan:", x); // Output: x setelah penugasan: 5
+
+// Operator penugasan penambahan
+x += y; // Sama dengan x = x + y
+console.log("x setelah penambahan:", x); // Output: x setelah penambahan: 10
+
+// Operator penugasan pengurangan
+x -= y; // Sama dengan x = x - y
+console.log("x setelah pengurangan:", x); // Output: x setelah pengurangan: 5
+
+// Operator penugasan perkalian
+x *= y; // Sama dengan x = x * y
+console.log("x setelah perkalian:", x); // Output: x setelah perkalian: 25
+
+// Operator penugasan pembagian
+x /= y; // Sama dengan x = x / y
+console.log("x setelah pembagian:", x); // Output: x setelah pembagian: 5
+
+// Operator penugasan modulus (sisa bagi)
+x %= y; // Sama dengan x = x % y
+console.log("x setelah modulus:", x); // Output: x setelah modulus: 0
+
+// Operator penugasan eksponensial
+x **= y; // Sama dengan x = x ** y
+console.log("x setelah eksponensial:", x); // Output: x setelah eksponensial: 0
+```
+
 ### Operator Bitwise
 | Operator | Description | 
 | :------: | :--------: |
@@ -116,6 +210,41 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | >>    | right shift    | 
 | >>>    | unsigned right shift     | 
 
+Contoh program:
+```
+// Mendeklarasikan variabel
+let a = 5;  // Dalam biner: 0101
+let b = 3;  // Dalam biner: 0011
+
+// Operator AND bitwise (&)
+let andResult = a & b;
+console.log("a & b:", andResult); // Output: a & b: 1 (dalam biner: 0001)
+
+// Operator OR bitwise (|)
+let orResult = a | b;
+console.log("a I b:", orResult); // Output: a | b: 7 (dalam biner: 0111)
+
+// Operator XOR bitwise (^)
+let xorResult = a ^ b;
+console.log("a ^ b:", xorResult); // Output: a ^ b: 6 (dalam biner: 0110)
+
+// Operator NOT bitwise (~)
+let notResult = ~a;
+console.log("~a:", notResult); // Output: ~a: -6 (dalam biner: ...11111010, operator NOT membalikkan semua bit dan menambahkan 1)
+
+// Operator shift left (<<)
+let shiftLeftResult = a << 1;
+console.log("a << 1:", shiftLeftResult); // Output: a << 1: 10 (dalam biner: 1010, menggeser bit ke kiri)
+
+// Operator shift right (>>)
+let shiftRightResult = a >> 1;
+console.log("a >> 1:", shiftRightResult); // Output: a >> 1: 2 (dalam biner: 0010, menggeser bit ke kanan)
+
+// Operator shift right tanpa tanda (>>>)
+let shiftRightUnsignedResult = a >>> 1;
+console.log("a >>> 1:", shiftRightUnsignedResult); // Output: a >>> 1: 2 (dalam biner: 0010, menggeser bit ke kanan tanpa mempertimbangkan tanda)
+```
+
 <a name="perulangan"></a>
 ## Perulangan pada JavaScript
 | Perulangan | Description | 
@@ -126,6 +255,55 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | for...in   | Perulangan melalui properti objek.     | 
 | for...of    | Perulangan melalui nilai dari objek iterable (misalnya array).      | 
 
+Contoh program:
+```
+// perulangan for
+console.log("Perulangan for:");
+for (let i = 0; i < 5; i++) {
+    console.log(i); // Output: 0, 1, 2, 3, 4
+}
+
+// perulangan while
+console.log("Perulangan while:");
+let j = 0;
+while (j < 5) {
+    console.log(j); // Output: 0, 1, 2, 3, 4
+    j++;
+}
+
+// perulangan do...while
+console.log("Perulangan do...while:");
+let k = 0;
+do {
+    console.log(k); // Output: 0, 1, 2, 3, 4
+    k++;
+} while (k < 5);
+
+//perulangan for..in
+console.log("Perulangan for...in:");
+const person = {
+    name: "John",
+    age: 30,
+    job: "Developer"
+};
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+// Output:
+// name: John
+// age: 30
+// job: Developer
+
+// perulangan for...of
+console.log("Perulangan for...of:");
+const numbers = [1, 2, 3, 4, 5];
+
+for (let number of numbers) {
+    console.log(number); // Output: 1, 2, 3, 4, 5
+}
+```
+
 <a name="pengondisian"></a>
 ## Pengkondisian pada JavaScript
 | Operator | Description | 
@@ -133,6 +311,46 @@ Operator digunakan untuk melakukan operasi pada nilai. Beberapa operator dasar d
 | if   | Mengeksekusi blok kode jika kondisi bernilai true.     | 
 | if...else    | Menentukan blok kode yang dijalankan berdasarkan kondisi true atau false.      |
 | switch    | Memilih salah satu dari beberapa blok kode untuk dijalankan berdasarkan nilai ekspresi.     | 
+
+Contoh program:
+```
+// Mendeklarasikan variabel
+let temperature = 30;
+let day = 3; 
+
+// Pengondisian if
+if (temperature > 25) {
+    console.log("Cuaca panas."); // Output: Cuaca panas.
+}
+
+// Pengondisian if...else
+if (temperature > 25) {
+    console.log("Cuaca panas.");
+} else {
+    console.log("Cuaca sejuk."); // Output: Cuaca sejuk.
+}
+
+// Pengondisian switch
+switch (day) {
+    case 1:
+        console.log("Hari Senin");
+        break;
+    case 2:
+        console.log("Hari Selasa");
+        break;
+    case 3:
+        console.log("Hari Rabu"); // Output: Hari Rabu
+        break;
+    case 4:
+        console.log("Hari Kamis");
+        break;
+    case 5:
+        console.log("Hari Jumat");
+        break;
+    default:
+        console.log("Hari tidak valid");
+}
+```
 
 <a name="fungsi"></a>
 ## Fungsi pada JavaScript
