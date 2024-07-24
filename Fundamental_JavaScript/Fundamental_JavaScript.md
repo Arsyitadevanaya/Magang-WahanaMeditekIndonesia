@@ -421,6 +421,38 @@ console.log(hasilPembagian); //-> 4
 Type casting adalah proses mengubah tipe data dari satu jenis ke jenis lain. JavaScript memiliki dua jenis konversi tipe: implisit dan eksplisit.
 ### Konversi Implisit
 JavaScript secara otomatis mengubah tipe data sesuai kebutuhan.
+#### Konversi String dan Number
+```
+let num = 5;      
+let str = "10";    
+let result = num + str;  
+console.log(result);   // Output: "510" 
+```
+#### Konversi Boolean dan Number
+```
+let bool = true;    
+let num = 4;        
+
+let result = bool + num;  
+console.log(result);      // Output: 5
+```
+####  Konversi Undefined dan Number
+```
+let und; 
+let num = 3; 
+
+let result = und + num;  
+console.log(result);     // Output: NaN
+```
+#### Konversi Array dan String
+```
+let arr = [1, 2, 3]; 
+let str = "Numbers: ";  
+
+let result = str + arr; 
+console.log(result);     // Output: "Numbers: 1,2,3"
+```
+
 ### Konversi Eksplisit
 Pengembang secara eksplisit mengubah tipe data menggunakan fungsi atau metode.
 | Eksplisit | Description | 
