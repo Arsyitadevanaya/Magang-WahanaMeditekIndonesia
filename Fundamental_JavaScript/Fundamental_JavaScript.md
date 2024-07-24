@@ -462,3 +462,26 @@ Pengembang secara eksplisit mengubah tipe data menggunakan fungsi atau metode.
 | Boolean()    | Mengubah nilai ke tipe data boolean.     | 
 | parseInt() dan parseFloat()    | Mengubah string ke number (integer atau floating-point).     | 
 
+contoh program:
+```
+// Menggunakan Number()
+let str = "123";
+let num = Number(str);
+console.log(num); // Output: 123
+
+// Menggunakan String()
+let num = 123;
+let str = String(num);
+console.log(str); // Output: "123"
+
+// Menggunakkan boolean
+let num1 = 1;
+let bool1 = Boolean(num1);
+console.log(bool1); // Output: true
+
+// Menggunakan parseInt()
+let str2 = "456";
+let intNum = parseInt(str2);
+console.log(intNum); // Output: 456
+```
+
